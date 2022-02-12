@@ -159,7 +159,7 @@ func main() {
 	url := flag.String("url", "ws://localhost:5522/ws", "url of the game websocket")
 	wordsUrl := flag.String(
 		"wordsurl",
-		"https://raw.githubusercontent.com/gltchitm/hangman/master/lib/hangman/rand_word.ex",
+		"https://raw.githubusercontent.com/gltchitm/hangman/master/server/game/wordlist.go",
 		"url of the rand_word.ex file to fetch",
 	)
 	quiet := flag.Bool("quiet", false, "only log the game result")
