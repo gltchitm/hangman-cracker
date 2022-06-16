@@ -160,7 +160,7 @@ func main() {
 	wordsUrl := flag.String(
 		"wordsurl",
 		"https://raw.githubusercontent.com/gltchitm/hangman/master/server/game/wordlist.go",
-		"url of the rand_word.ex file to fetch",
+		"url of the wordlist.go file to fetch",
 	)
 	quiet := flag.Bool("quiet", false, "only log the game result")
 	forever := flag.Bool("forever", false, "keep creating a new game and trying again")
